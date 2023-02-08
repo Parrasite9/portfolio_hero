@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1F2022;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1F2022;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+nav {
+    display: flex;
+    width: 84%;
+    padding-left: 6%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav, ul, li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav, ul, li, a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav, ul, li, a:hover {
+    color: #39FF14;
+}
+
+.hero-elements {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+.hero-text {
+    font-size: 4.5em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #39FF14;
+}
+
+.hero-subtext {
+    color: white;
+    font-size: 1.1em;
+}
+
+.hero-elements a {
+    background-color: white;
+    padding: 10px 18px;
+    font-weight: bold;
+    color: #1F2022;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+
+.hero-elements a:hover {
+    background-color: #39FF14;
+}
+
+.self {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    width: 30%;
+    height: auto;
+}
+
+.shape {
+    position: absolute;
+    top: -8.5%;
+    left: 55%;
+    width: 40%;
+    height: auto;
+}
+
+.myimg:hover .shape {
+    left: 52.4%;
+    transition: left 1s, transform 3s;
+    transform: rotate(360deg);
+}
+
+.myimg:hover .self {
+    left: 58%;
+    transition: bottom 2s, left 1s;
+}
